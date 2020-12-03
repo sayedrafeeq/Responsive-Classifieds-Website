@@ -111,6 +111,55 @@
 	.ui.vertical.menu {
 		width: auto;
 	}
+	.ui.skyscraper.ad {
+		display: none;
+	}
+	.scroll-top-wrapper {
+		right: 15px;
+	}
+	.welcome-msg span {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.popular-categories .row>.column {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.table_wrapper {
+		position: relative;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+}
+
+/* Email Advertiser Model Box */
+@media only screen and (min-width: 1200px) {
+	.ui.modal {
+		width: 600px;
+		left: 60%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.ui.modal {
+		width: 600px;
+		left: 60%;
+	}
+}
+
+/* iPad in Portrait  CSS*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	.ui.skyscraper.ad {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 270px) and (max-width: 480px) {
@@ -137,22 +186,7 @@
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-	.popular-categories .row>.column {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-}
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-	.table_wrapper {
-		position: relative;
-		overflow-x: scroll;
-		overflow-y: hidden;
-	}
-}
-
 /***** Header Area ****/
-
 @media only screen and (min-width: 290px) and (max-width: 479px) {
 	.slide-cont {
 		width: 90%;
@@ -162,21 +196,5 @@
 @media only screen and (min-width: 480px) and (max-width: 639px) {
 	.slide-cont {
 		width: 90%;
-	}
-}
-
-/* Email Advertiser Model Box */
-
-@media only screen and (min-width: 1200px) {
-	.ui.modal {
-		width: 600px;
-		left: 60%;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-	.ui.modal {
-		width: 600px;
-		left: 60%;
 	}
 }

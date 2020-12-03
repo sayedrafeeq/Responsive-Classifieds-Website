@@ -1,0 +1,40 @@
+/*******************************
+		  THEME CSS
+*******************************/
+
+.topbar {
+    background-color: #1062A8;
+    color: #ffffff;
+}
+
+.welcome-msg span {
+    color: #ffffff;
+}
+
+.ui.header-area {
+	background-color: #1E82D8;
+}
+
+.my-account a {
+    color: #ffffff;
+}
+
+.my-account a:hover {
+    color: #ffffff;
+}
+
+.ui.inverted.menu {
+    border: 0px solid transparent;
+    background: #1e82d8;
+    box-shadow: none;
+}
+
+/* .free-ad a{ */
+    /* background-color: #ffffff; */
+/* } */
+
+.masthead-shadow .ui.inverted.herohead {
+	-webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
