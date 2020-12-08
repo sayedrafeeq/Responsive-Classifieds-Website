@@ -126,6 +126,19 @@ a:hover {
 	font-size: 13px;
 }
 
+.trend-ads {
+    padding: 10px !important;
+    border-radius: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #00b5ad !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    margin: 5px 3px !important;
+}
+
 .banner-content {
     padding: 15px;
     position: relative;
