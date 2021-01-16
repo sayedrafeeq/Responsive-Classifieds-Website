@@ -135,6 +135,9 @@
 		overflow-x: scroll;
 		overflow-y: hidden;
 	}
+	.ad-area-large {
+		width: auto;
+	}
 }
 
 /* Email Advertiser Model Box */
